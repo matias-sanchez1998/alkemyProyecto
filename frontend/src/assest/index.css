@@ -1,0 +1,93 @@
+body {
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #4ab06d, #002827);
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+label {
+  font-weight: normal;
+}
+
+a {
+  color: white;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+.add-movement {
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.error {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: red;
+}
+
+.movimientos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  
+    font-size: 20px;
+    text-align: end;
+  
+}
+
+.movimientos div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form input {
+  min-height: 40px;
+}
+.form select {
+  min-height: 40px;
+}
+.form button {
+  max-width: 180px;
+}
